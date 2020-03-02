@@ -1,4 +1,4 @@
-# pxt-Motor
+# JMotor
 
 JMaker
 
