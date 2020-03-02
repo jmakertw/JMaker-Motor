@@ -5,15 +5,6 @@ enum Motor {
     B = 0x2,
 }
 
-enum Servo {
-    //% block="S0"
-    S0 = 0x1,
-    //% block="S1"
-    S1 = 0x2,
-    //% block="S2"
-    S2 = 0x3,
-}
-
 enum Dir {
     //% block="Forward"
     forward = 0x1,
@@ -73,9 +64,5 @@ namespace JMotor {
         else
             pins.analogWritePin(PWMB, 0)
     }
-
-    
-
-    
 
 }
