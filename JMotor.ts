@@ -28,7 +28,7 @@ namespace JMotor {
 	 * Motor Run
 	 * @param speed [0-16] speed of Motor; eg: 10, 0, 16
 	*/
-    //% blockId=MotorRun block="Motor %m|index %index|speed %speed"
+    //% blockId="MotorRun" block="Motor %m|index %index|speed %speed"
     //% weight=100
     //% speed.min=0 speed.max=100
     export function MotorRun(m: Motor, index: Dir, speed: number): void {
@@ -56,7 +56,7 @@ namespace JMotor {
         }
     }
 
-    //% blockId=MotorStop
+    //% blockId="MotorStop"
     //% block="Motor %Motor| Stop"
     //% weight=90
     export function MotorStop(m: Motor): void {
