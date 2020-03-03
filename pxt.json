@@ -10,7 +10,7 @@
     "files": [
         "README.md",
         "JMotor.ts",
-        "_locales/zh/JMaker-Motor-strings.json"
+        "_locales/zh/JMotor-strings.json"
     ],
     "testFiles": [
         "test.ts"
