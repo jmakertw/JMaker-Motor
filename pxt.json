@@ -1,6 +1,6 @@
 {
-    "name": "JMotor",
-    "version": "1.0.9",
+    "name": "jBit小車",
+    "version": "1.0.91",
     "description": "傑森創工 jmaker.com.tw",
     "license": "MIT",
     "dependencies": {
