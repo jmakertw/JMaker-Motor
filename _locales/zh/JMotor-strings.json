@@ -3,14 +3,14 @@
   "Dir.forward|block": "正轉",
   "Motor.A|block": "A",
   "Motor.B|block": "B",
-  "MotorDriver.MotorRun|block": "電機 %m|旋轉方向 %index|旋轉速度 %speed",
-  "MotorDriver.MotorStop|block": "電機 %Motor| 停止轉動",
-  "MotorDriver.ServosTurnFull|block": "伺服馬達 %s| 轉到180度",
-  "MotorDriver.ServosTurnZero|block": "伺服馬達 %s| 轉到0度",
-  "MotorDriver.ServoStop|block": "伺服馬達 %s| 停止",
-  "MotorDriver.ServoTurnAngle|block": "伺服馬達 %s| 角度 %angle",
+  "JMotor.MotorRun|block": "電機 %m|旋轉方向 %index|旋轉速度 %speed",
+  "JMotor.MotorStop|block": "電機 %Motor| 停止轉動",
+  "JMotor.ServosTurnFull|block": "伺服馬達 %s| 轉到180度",
+  "JMotor.ServosTurnZero|block": "伺服馬達 %s| 轉到0度",
+  "JMotor.ServoStop|block": "伺服馬達 %s| 停止",
+  "JMotor.ServoTurnAngle|block": "伺服馬達 %s| 角度 %angle",
   "Servo.S0|block": "S0",
   "Servo.S1|block": "S1",
   "Servo.S2|block": "S2",
-  "{id:category}MotorDriver": "MotorDriver"
+  "{id:category}JMotor": "JMotor"
 }
