@@ -22,7 +22,7 @@ let S0_PIN = AnalogPin.P0;
 let S1_PIN = AnalogPin.P1;
 let S2_PIN = AnalogPin.P2;
 
-//% weight=20 color=#3333FF icon="\uf514"
+//% weight=20 color=#3333FF icon="\uf5e4"
 namespace JMotor {
     /**
 	 * Motor Run
