@@ -1,6 +1,6 @@
 {
-    "name": "JMotor",
-    "version": "1.0.4",
+    "name": "jBit Car",
+    "version": "1.0.5",
     "description": "傑森創工 Jmaker Workshop",
     "license": "MIT",
     "dependencies": {
