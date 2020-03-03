@@ -11,7 +11,7 @@ enum Dir {
     //% block="Backward"
     backward = 0x2,
 }
-
+let EN = DigitalPin.P14;
 let PWMA = AnalogPin.P1;
 let AIN1 = DigitalPin.P12;
 let AIN2 = DigitalPin.P13;
@@ -30,10 +30,11 @@ namespace JMotor {
 	*/
     //% blockId=MotorDriver_MotorRun block="Motor %m|index %index|speed %speed"
     //% weight=100
-    //% speed.min=0 speed.max=16
+    //% speed.min=0 speed.max=100
     export function MotorRun(m: Motor, index: Dir, speed: number): void {
-        speed = speed * 64 - 1; // map 0 to 1023
-
+	pins.digitalWritePin(EN, 1)
+        speed = speed * 10; // map 0 to 1023
+	
         if (m == Motor.A) {
             pins.analogWritePin(PWMA, speed)
             if (index == Dir.forward) {
