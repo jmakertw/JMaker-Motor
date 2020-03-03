@@ -22,7 +22,7 @@ let S0_PIN = AnalogPin.P0;
 let S1_PIN = AnalogPin.P1;
 let S2_PIN = AnalogPin.P2;
 
-//% color=204 weight=0 
+//% color=204
 //% icon="\uf63b"
 //% block="jBit Car"
 namespace JMotor {
