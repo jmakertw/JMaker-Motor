@@ -27,7 +27,7 @@ let S2_PIN = AnalogPin.P2;
 namespace JMotor {
     /**
 	 * Motor Run
-	 * @param speed [0-16] speed of Motor; eg: 10, 0, 16
+	 * @param speed [0-100] speed of Motor; eg: 10, 0, 100
 	*/
     //% blockId="MotorRun" block="Motor %m|index %index|speed %speed"
     //% weight=100
