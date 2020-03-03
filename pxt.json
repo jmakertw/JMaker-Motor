@@ -1,7 +1,7 @@
 {
     "name": "JMotor",
-    "version": "1.1.1",
-    "description": "傑森創工. jmaker.com.tw",
+    "version": "1.1.11",
+    "description": "傑森創工 jmaker.com.tw",
     "license": "MIT",
     "dependencies": {
         "core": "*",
