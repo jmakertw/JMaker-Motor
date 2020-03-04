@@ -1,6 +1,6 @@
-# JMotor
+# jBit Motor
 
-JMaker
+jBit小車 www.jmaker.com.tw
 
 ![icon.png](icon.png)
 
